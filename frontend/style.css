@@ -7,6 +7,10 @@ body {
     height: 100vh;
     margin: 0;
     gap: 10px;
+
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnYxY3MybTN4dnk5NGEyNWRhOXBkNHQyMG94cGg0bTVsZWcwMTdhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LLYMoDblVhhjvjRBtj/giphy.gif');
+    background-size: cover;
+    background-color: black;
   }
   
   .container {
