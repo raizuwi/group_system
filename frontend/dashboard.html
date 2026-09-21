@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+        <div class="container">
+        <center>
+            <section>
+                <h1>Welcome to our Domain</h1>
+                <h5>You have successfully entered.</h5>
+                
+                <button onclick="logout()">Logout</button>
+            </section>
+        </center>
+        </div>
+
+        <script>
+        function logout() {
+            localStorage.removeItem("token");
+            window.location.href = "index.html";
+        }
+        </script>
+    </body>
+    </html>

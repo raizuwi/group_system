@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #080101;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgb(56, 56, 56);
+    color: #fffff3;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    transition: 0.5s;
+    transform: scale(1.04);
+  }
+  
+  #message {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  /* .dashback{
+    background-color: rgb(140, 158, 173);
+    
+  } */
+  
+  .dashdiv{
+    background: rgb(56, 56, 56);
+    color: #fffff3;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.185);
+  }
+  
+  .pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* object-fit: cover; */
+    transition: 0.5s;
+  }
+  
+  .pfp:hover{
+    transition: 0.5s;
+    transform: scale(1.09);
+    box-shadow: 0 0 50px rgba(250, 22, 53, 0.438);
+  }
+  
+  a{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: rgb(255, 77, 77);
+  }
