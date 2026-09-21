@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    gap: 10px;
   }
   
   .container {
@@ -33,12 +34,16 @@ body {
     padding: 10px;
     margin-top: 8px;
     cursor: pointer;
+    border-radius: 5px;
+    border: none;
     transition: 0.5s;
   }
   
   button:hover {
     transition: 0.5s;
     transform: scale(1.04);
+    color: white;
+    background-color: rgb(139, 139, 212);
   }
   
   #message {
@@ -67,12 +72,7 @@ body {
     /* object-fit: cover; */
     transition: 0.5s;
   }
-  
-  .pfp:hover{
-    transition: 0.5s;
-    transform: scale(1.09);
-    box-shadow: 0 0 50px rgba(250, 22, 53, 0.438);
-  }
+
   
   a{
     color: white;
@@ -81,5 +81,11 @@ body {
   }
   
   a:hover{
-    color: rgb(255, 77, 77);
+    color: rgb(87, 250, 81);
+  }
+
+  .head{
+    padding: 0;
+    margin: 0;
+    background-color: #fffff3;
   }

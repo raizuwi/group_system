@@ -6,6 +6,8 @@ async function register() {
   const password = document.getElementById("password").value;
 
   try {
+    document.getElementById("message").innerText = "Loading..."
+
     const response = await fetch(`${API_URL}/api/register`, {
       method: "POST",
       headers: {
@@ -32,6 +34,9 @@ async function login() {
   const password = document.getElementById("password").value;
 
   try {
+
+    document.getElementById("message").innerText = "Loading..."
+
     const response = await fetch(`${API_URL}/api/login`, {
       method: "POST",
       headers: {

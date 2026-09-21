@@ -4,25 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styledash.css">
   </head>
-    <body>
-        <div class="container">
-        <center>
-            <section>
-                <h1>Welcome to our Domain</h1>
-                <h5>You have successfully entered.</h5>
-                
-                <button onclick="logout()">Logout</button>
-            </section>
-        </center>
+<body>
+    <header>
+        <h1>Welcome To Our Domain</h1>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <section class="bod">
+        <div class="leona">
+            <img class="pic" src="images/leona.jpg" width="100" height="100">
+            <texts>
+                <h1>Leona</h1>
+                <dl>
+                    <dt><h5>♪ Is it really you? - Loathe</h5></dt>
+                    <dd><h4>"Let's search the sky for a while, You and I"
+                    </h4></dd>
+                </dl>
+            </texts>
         </div>
 
-        <script>
-        function logout() {
-            localStorage.removeItem("token");
-            window.location.href = "index.html";
-        }
-        </script>
-    </body>
-    </html>
+        <div class="salvio">
+            <img class="pic" src="images/darryl.jpg" width="100" height="100">
+            <texts>
+                <h1>Salvio</h1>
+                <dl>
+                    <dt><h5>♪ Hurt - NewJeans</h5></dt>
+                    <dd><h4>"Cause I'm not gonna be the one to get hurt"</h4></dd>
+                </dl>
+            </texts>
+        </div>
+
+        <div class="jay">
+            <img class="pic" src="images/jay.png" width="100" height="100">
+            <texts>
+                <h1>Labastida</h1>
+            </texts>
+        </div>
+
+        <div class="jet">
+            <img class="pic" src="images/jet.png" width="100" height="100">
+            <texts>
+                <h1>Morata</h1>
+            </texts>
+        </div>
+    </section>
+  <script>
+  function logout() {
+      localStorage.removeItem("token");
+      window.location.href = "index.html";
+  }
+   </script>
+</body>
+</html>
