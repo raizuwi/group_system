@@ -13,6 +13,11 @@ header {
     align-items: center;
   }
 
+body {
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnYxY3MybTN4dnk5NGEyNWRhOXBkNHQyMG94cGg0bTVsZWcwMTdhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LLYMoDblVhhjvjRBtj/giphy.gif');
+  background-size: cover;
+  background-color: black;
+}   
 
   button {
     width: 8%;
@@ -32,10 +37,7 @@ header {
     background-color: rgb(196, 65, 65);
   }
 
-  body{
-    font-family: Arial, sans-serif;
-    background-color: #1d1c1c;
-  }
+
 
   .leona {
     font-family: Arial, sans-serif;
@@ -92,7 +94,7 @@ header {
 
   .jay:hover{
     transition: 0.5s;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(118, 119, 61);
     transform: scale(1.02);
     
   }
@@ -112,7 +114,7 @@ header {
 
   .jet:hover{
     transition: 0.5s;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(124, 44, 44);
     transform: scale(1.02);
     
   }
