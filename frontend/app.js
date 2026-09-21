@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "https://group-system.onrender.com";
 
 async function register() {
   const name = document.getElementById("name").value;
